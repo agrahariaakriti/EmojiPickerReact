@@ -1,0 +1,29 @@
+.DisplayHead
+{
+  font-size: 120px;
+     color: #ffffff; /* white emoji color */
+  text-shadow:
+    0 0 10px rgb(219, 219, 231),     /* light blue glow */
+    0 0 20px #00f,     /* stronger blue glow */
+    0 0 30px #00f;
+    display: flex;
+    /* border: 12px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+ .DisplayHead
+{
+  font-size:30px;
+  color: #ffffff; /* white emoji color */
+  text-shadow:
+    0 0 10px rgb(164, 164, 175),     /* light blue glow */
+    0 0 20px #00f,     /* stronger blue glow */
+    0 0 30px #00f;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+
+
+} 
+}
