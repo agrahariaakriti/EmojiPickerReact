@@ -1,6 +1,7 @@
 {
   "name": "responsivereactpro",
   "private": true,
+    "homepage": "https://github.com/agrahariaakriti/EmojiPickerReact",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -11,8 +12,11 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.7",
+    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
